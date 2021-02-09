@@ -36,11 +36,14 @@ def merge_journal(journal_pcode, journal_path, output_dir, extension='csv'):
 
     # combine all files in the list
     combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames])
+
+    # filter
+    data = combined_csv[combined_csv['contentType'].isin(['letter', 'article'])]
     # export to csv
     output_file = "%s/%s_papers_merged.csv" % (output_dir, journal_pcode)
-    combined_csv.to_csv(output_file, index=False, encoding='utf-8')
+    data.to_csv(output_file, index=False, encoding='utf-8')
 
-    return combined_csv
+    return data
 
 
 if __name__ == '__main__':

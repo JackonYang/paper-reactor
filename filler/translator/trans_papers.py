@@ -87,7 +87,7 @@ def trans_records(issue_data):
 
         for key in field_to_trans:
             value = record[key]
-            trans_record['%s_cn' % key] = translate(value, sleep_interval=None)
+            trans_record['%s_cn' % key] = translate(value, sleep_interval=5)
         results.append(trans_record)
 
     return results

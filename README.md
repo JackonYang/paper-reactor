@@ -21,4 +21,6 @@
 python downloader/nature_downloaders/download_nature.py
 # translate using google API
 proxychains4 python filler/translator/trans_papers.py
+# merge issuely files into one
+python merger/nature/merge_issuely_csv_files.py
 ```

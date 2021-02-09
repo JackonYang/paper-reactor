@@ -8,7 +8,7 @@ db.sqlite3
 data-examples
 output/
 
-.icache-root
+# .icache-root
 
 *.py[cod]
 

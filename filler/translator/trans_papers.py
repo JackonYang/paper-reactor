@@ -41,12 +41,14 @@ def main():
             )
 
             if os.path.exists(output_file):
-                print('skip, output file exists: %s' % output_file)
+                # print('skip, output file exists: %s' % output_file)
+                continue
 
             issue_csv_file = os.path.join(journal_path, issue)
             issue_data = load_journal_issue_data(issue_csv_file)
             trans_data = trans_records(issue_data)
             save_csv(output_file, output_header, trans_data)
+            print('saved: %s' % output_file)
 
 
 def load_journal_issue_data(issue_csv_file):
@@ -73,6 +75,11 @@ def trans_records(issue_data):
     results = []
     for record in issue_data:
 
+        contentType = record['contentType']
+
+        if contentType not in ['letter', 'article']:
+            continue
+
         trans_record = {
             key: record[key] for key in field_to_trans
         }
@@ -80,7 +87,7 @@ def trans_records(issue_data):
 
         for key in field_to_trans:
             value = record[key]
-            trans_record['%s_cn' % key] = translate(value, sleep_interval=5)
+            trans_record['%s_cn' % key] = translate(value, sleep_interval=None)
         results.append(trans_record)
 
     return results

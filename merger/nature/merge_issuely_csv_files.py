@@ -1,49 +1,59 @@
 import os
-import glob
-import pandas as pd
+import sys
 
 
 PROJECT_ROOT = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '../../'))
 
-input_path = os.path.join(
-    PROJECT_ROOT, 'paper-data/rawdata/nature')
+lib_path = os.path.join(
+    PROJECT_ROOT, 'libs'
+)
+
+sys.path.insert(0, lib_path)
+
+from data_loader.csv_loader.nature_data_loader import load_nature_data
+from data_dumper.csv_writer import save_result_csv
+
 
 output_dir = os.path.join(
     PROJECT_ROOT, 'paper-data/merged/nature')
 
+DOI_KEY = 'doi'
+
+
+filters = {
+    'long_paper': lambda x: x['contentType'] in ['article', 'letter'],
+}
+
 
 def main():
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
 
-    all_journal_data = []
-    for journal_pcode in sorted(os.listdir(input_path)):
-        journal_path = os.path.join(input_path, journal_pcode)
+    trans = load_nature_data('trans')
+    trans_map = {p[DOI_KEY]: p for p in trans}
+    print('trans map length: %s' % len(trans_map))
 
-        journal_data = merge_journal(journal_pcode, journal_path, output_dir)
-        all_journal_data.append(journal_data)
+    data = load_nature_data('rawdata')
 
-    all_in_one_csv = pd.concat(all_journal_data)
+    for record in data:
+        key = record[DOI_KEY]
+        if key in trans_map:
+            record.update(trans_map[key])
 
-    output_file = "%s/_all_papers_merged.csv" % output_dir
-    all_in_one_csv.to_csv(output_file, index=False, encoding='utf-8')
+    output(data)
 
 
-def merge_journal(journal_pcode, journal_path, output_dir, extension='csv'):
+def output(data):
+    base_name = os.path.join(output_dir, "nature_papers_merged_%s.csv")
 
-    all_filenames = [i for i in sorted(glob.glob('%s/*.%s' % (journal_path, extension)))]
+    output_file = base_name % 'all'
+    save_result_csv(output_file, data)
+    print('%s records saved: %s' % (len(data), output_file))
 
-    # combine all files in the list
-    combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames])
-
-    # filter
-    data = combined_csv[combined_csv['contentType'].isin(['letter', 'article'])]
-    # export to csv
-    output_file = "%s/%s_papers_merged.csv" % (output_dir, journal_pcode)
-    data.to_csv(output_file, index=False, encoding='utf-8')
-
-    return data
+    for f_name, f_func in filters.items():
+        filename = base_name % f_name
+        filterd_data = [r for r in data if f_func(r)]
+        save_result_csv(filename, filterd_data)
+        print('%s %s records saved: %s' % (f_name, len(filterd_data), filename))
 
 
 if __name__ == '__main__':

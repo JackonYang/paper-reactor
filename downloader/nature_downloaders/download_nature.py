@@ -33,11 +33,18 @@ sections = [
 
 # @API
 def download_issue_meta(journal_pcode, volume, issue):
+    fname = os.path.join(output_dir, journal_pcode, '%s-volume%02d-issue%02d.csv' % (journal_pcode, volume, issue))
+
+    if os.path.exists(fname):
+        # print('exists: %s' % fname)
+        return [1]
+
     print('=== start downloading %s Vol.%s Iss.%s' % (journal_pcode, volume, issue))
+
     papers = get_issue_paper_list(journal_pcode, volume, issue)
 
     if papers is None or len(papers) == 0:
-        print('error in %s.%s. papers: %s' % (volume, issue, papers and len(papers)))
+        print('error in Volume%s-Issue%s. papers: %s' % (volume, issue, papers and len(papers)))
         return
 
     paper_meta = []
@@ -57,20 +64,19 @@ def download_issue_meta(journal_pcode, volume, issue):
         except Exception as e:
             print('!!! error', e)
 
-    save_csv(volume, issue, paper_meta)
+    save_csv(fname, paper_meta)
+    return paper_meta
 
 
 # @API
-def save_csv(year, issue, paper_meta):
+def save_csv(fname, paper_meta):
     if len(paper_meta) == 0:
         return
 
-    journal_pcode = paper_meta[0]['journal_pcode']
-    journal_dirname = os.path.join(output_dir, journal_pcode)
+    journal_dirname = os.path.dirname(fname)
     if not os.path.exists(journal_dirname):
         os.makedirs(journal_dirname)
 
-    fname = os.path.join(journal_dirname, '%s-volume%02d-issue%02d.csv' % (journal_pcode, year, issue))
     required_f = ['contentType', 'title']
     extra_f = set(paper_meta[0].keys()) - set(required_f)
     fieldnames = required_f + sorted(extra_f)
@@ -254,82 +260,33 @@ def parse_paper_metainfo(content):
     return detail_info
 
 
-def download_nphoton():
-    journal_pcode = 'nphoton'
-    # Vol.1 released in 2007
-    # for year in range(2007, 2020):
-    for volume in range(15, 14):
-        for i in range(12):
-            issue = i + 1
+class JournalDownloader():
+    journal_pcode = None
+    yearly_issue_count = 12
+
+    def __init__(self, journal_pcode, yearly_issue_count=12):
+        self.journal_pcode = journal_pcode
+        self.yearly_issue_count = yearly_issue_count
+
+    def download_vol1(self):
+        journal_pcode = self.journal_pcode
+        volume = 1
+        for issue in range(1, self.yearly_issue_count + 1):
             download_issue_meta(journal_pcode, volume, issue)
 
-    volume = 15
-    for issue in range(1, 3):
-        download_issue_meta(journal_pcode, volume, issue)
-
-
-def download_light():
-    journal_pcode = 'lsa'
-    # Vol.1 released in 2012, starting from issue 3
-    for volume in range(2, 7):
-        for i in range(12):
-            issue = i + 1
-            download_issue_meta(journal_pcode, volume, issue)
-
-    volume = 7
-    for i in range(5):
-        issue = i + 1
-        download_issue_meta(journal_pcode, volume, issue)
-
-    volume = 1
-    for i in range(2, 12):
-        issue = i + 1
-        download_issue_meta(journal_pcode, volume, issue)
-
-
-def download_nanotechnology():
-    journal_pcode = 'nnano'
-    for volume in range(2, 15):
-        for i in range(12):
-            issue = i + 1
-            download_issue_meta(journal_pcode, volume, issue)
-
-    volume = 15
-    for i in range(5):
-        issue = i + 1
-        download_issue_meta(journal_pcode, volume, issue)
-
-    # Vol.1 released in 2006, issue 1 - 3
-    volume = 1
-    for i in range(3):
-        issue = i + 1
-        download_issue_meta(journal_pcode, volume, issue)
-
-
-def download_physics():
-    # Vol.1 released in 2005, issue 1 - 3
-    vol_cnt = 16
-    journal_pcode = 'nphys'
-    vol1_issues = range(3)
-
-    for volume in range(2, vol_cnt):
-        for i in range(12):
-            issue = i + 1
-            download_issue_meta(journal_pcode, volume, issue)
-
-    volume = vol_cnt
-    for i in range(5):
-        issue = i + 1
-        download_issue_meta(journal_pcode, volume, issue)
-
-    volume = 1
-    for i in vol1_issues:
-        issue = i + 1
-        download_issue_meta(journal_pcode, volume, issue)
+    def download_latest(self):
+        journal_pcode = self.journal_pcode
+        for volume in range(2, 100):
+            for issue in range(1, self.yearly_issue_count + 1):
+                paper_meta = download_issue_meta(journal_pcode, volume, issue)
+                if paper_meta is None or len(paper_meta) == 0:
+                    print('no more papers. stopped')
+                    return
 
 
 if __name__ == '__main__':
-    download_nphoton()
-    # download_light()
-    # download_physics()
-    # download_nanotechnology()
+    # dl = JournalDownloader('nphoton')
+    # dl = JournalDownloader('lsa')
+    dl = JournalDownloader('nnano')
+    # dl.download_vol1()
+    dl.download_latest()

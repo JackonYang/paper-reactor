@@ -24,3 +24,10 @@ proxychains4 -q python filler/translator/trans_papers.py
 # merge issuely files into one
 python merger/nature/merge_issuely_csv_files.py
 ```
+
+
+## Setup
+
+```bash
+pip3 install -r requirements.txt
+```

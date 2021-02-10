@@ -1,0 +1,101 @@
+doi,title,title_cn,abstract,abstract_cn
+10.1038/nphys234,Superconducting nanowires as quantum phase-slip junctions,超导纳米线作为量子相滑结 ,"<p>For a superconductor, charge and phase are dual quantum variables. A phase-slip event in a superconducting nanowire changes the phase difference over the wire by 2&#960;; it is the dual process to Cooper-pair tunnelling in a Josephson junction. Phase slip by thermal activation at high temperatures is well understood. Phase slip by quantum tunnelling at low temperatures is considered plausible, but experiments on the resistance of nanowires are inconclusive on this point. B&#252;chler et al.  conclude that successive quantum phase slip (QPS) events can be coherent. Here, we demonstrate that, if it exists, coherent QPS is the exact dual to Josephson tunnelling. A narrow nanowire should act as a QPS junction that shows kinetic capacitance, a plasma resonance and current plateaus of interest for nanoelectronic applications. We suggest feasible experiments to unequivocally confirm the existence for coherent QPS.</p>",<p>对于超导体，电荷和相位是双量子变量。 超导纳米线中的相移事件将整个线上的相位差改变了2＆＃;;。 这是约瑟夫森结中库珀对隧道的双重过程。 高温下热活化引起的相移是众所周知的。 低温下通过量子隧穿进行的相移被认为是合理的，但是在这一点上关于纳米线电阻的实验尚无定论。 B＆chler等人。 结论认为，连续的量子相位滑移（QPS）事件可能是相干的。 在这里，我们证明了，如果存在的话，相干QPS是约瑟夫森隧道技术的精确对偶。 较窄的纳米线应充当QPS结，显示出动态电容，等离子共振和纳米电子应用感兴趣的电流平稳期。 我们建议进行可行的实验以明确证实相干QPS的存在。</ p> 
+10.1038/nphys244,Hard superconductivity of a soft metal in the quantum regime,量子态中软金属的硬超导性 ,"<p>Superconductivity is inevitably suppressed in reduced dimensionality. Questions of how thin superconducting wires or films can be before they lose their superconducting properties have important technological ramifications and go to the heart of understanding coherence and robustness of the superconducting state in quantum-confined geometries. Here, we exploit quantum confinement of itinerant electrons in a soft metal, Pb, to stabilize superconductors with lateral dimensions of the order of a few millimetres and vertical dimensions of only a few atomic layers. These extremely thin superconductors show no indication of defect- or fluctuation-driven suppression of superconductivity, and sustain supercurrents of up to 10% of the depairing current density. Their magnetic hardness implies a Bean-like critical state with strong vortex pinning that is attributed to quantum trapping of vortices. This study paints a conceptually appealing, elegant picture of a model nanoscale superconductor with calculable critical-state properties and surprisingly strong phase coherence. It indicates the intriguing possibility of exploiting robust superconductivity at the nanoscale.</p>",<p>在减小尺寸方面不可避免地抑制了超导性。在超导导线或薄膜失去超导性能之前可以达到多薄的问题具有重要的技术影响，并成为理解量子受限几何中超导态的相干性和鲁棒性的核心。在这里，我们利用软金属Pb中流动电子的量子限制来稳定超导体，该超导体的横向尺寸约为几毫米，垂直尺寸仅为几个原子层。这些极薄的超导体没有迹象表明存在缺陷或波动驱动的超导抑制，并且维持的超电流不超过配对电流密度的10％。它们的磁硬度暗示具有强旋涡钉扎的Bean状临界状态，这归因于旋涡的量子俘获。这项研究描绘了具有可计算的临界状态特性和令人惊讶的强相干性的模型纳米级超导体的概念上吸引人的优雅图片。这表明在纳米尺度上利用鲁棒的超导性的有趣可能性。</ p> 
+10.1038/nphys245,Unconventional quantum Hall effect and Berry's phase of 2π in bilayer graphene,双层石墨烯中的非常规量子霍耳效应和2πBerry相 ,"<p>There are two known distinct types of the integer quantum Hall effect. One is the conventional quantum Hall effect, characteristic of two-dimensional semiconductor systems, and the other is its relativistic counterpart observed in graphene, where charge carriers mimic Dirac fermions characterized by Berry&#8217;s phase &#960;, which results in shifted positions of the Hall plateaus. Here we report a third type of the integer quantum Hall effect. Charge carriers in bilayer graphene have a parabolic energy spectrum but are chiral and show Berry&#8217;s phase 2&#960; affecting their quantum dynamics. The Landau quantization of these fermions results in plateaus in Hall conductivity at standard integer positions, but the last (zero-level) plateau is missing. The zero-level anomaly is accompanied by metallic conductivity in the limit of low concentrations and high magnetic fields, in stark contrast to the conventional, insulating behaviour in this regime. The revealed chiral fermions have no known analogues and present an intriguing case for quantum-mechanical studies.</p>",<p>整数量子霍尔效应有两种已知的不同类型。一种是传统的量子霍尔效应，具有二维半导体系统的特征，另一种是在石墨烯中观察到的相对论性效应，其中载流子模仿了以贝里相为特征的狄拉克费米子，从而导致了相移。霍尔高原的位置。在这里，我们报告整数量子霍尔效应的第三种类型。双层石墨烯中的电荷载流子具有抛物线能谱，但具有手性，并显示出Berry的2相和2′相。影响他们的量子动力学。这些费米子的Landau量化导致霍尔电导率在标准整数位置处达到平稳状态，但缺少最后一个（零级）平稳状态。零能级异常伴随着在低浓度和高磁场的限制下的金属电导率，与这种情况下的常规绝缘行为形成了鲜明的对比。揭示的手性费米子没有类似物，为量子力学研究提供了有趣的案例。</ p> 
+10.1038/nphys242,Kinetic development of crystallization fronts in complex plasmas,复杂等离子体中结晶前沿的动力学发展 ,"<p>Although it is relatively straightforward to measure the atomic structure of crystals, the detailed dynamics of crystal growth (including the evolution of self-organization, structure formation, and the associated kinetic and thermodynamic development) remains one of the most important topics of solid-state physics. Very little is known, for instance, about the evolutionary paths of crystal structure development, and the structural complexity of the surface down to atomic dimensions and its change with time. This is, to a large extent, due to the lack of suitable systems that can be studied at the appropriate length- and timescales. Here, we report experimental observations of a crystallization front propagating in a supercooled region of a three-dimensional fluid complex plasma. The structure and evolution of the front are analysed using kinetic measurements of individual microparticle dynamics. It is found that the fluid&#8211;crystalline transition is accompanied by short-lived &#8216;nano&#8217;-crystallites in the fluid and &#8216;nano&#8217;-droplets in the crystalline phases, that the surface structure is scale-free (fractal) in the experimentally accessible regime (2&#8211;10 lattice distances) and that crystal growth follows a universal self-organization pattern at the particle level, leading to oscillations in the surface&#160;roughness.</p>",<p>虽然测量晶体的原子结构相对简单，但是晶体生长的详细动力学（包括自组织的演化，结构形成以及相关的动力学和热力学发展）仍然是晶体的最重要主题之一。固态物理学。例如，对于晶体结构发展的演化路径，直至原子尺寸的表面结构复杂性及其随时间的变化知之甚少。这在很大程度上是由于缺乏可以在适当的长度和时间尺度上进行研究的适当系统。在这里，我们报告在三维流体复合等离子体的过冷区域中传播的结晶前沿的实验观察。使用单个微粒动力学的动力学测量来分析锋面的结构和演变。发现流体的结晶转变伴随着流体中的短寿命纳米晶体和结晶相中的纳米液滴，表明表面结构在实验上可访问的状态下（2到10个晶格距离）是无标度的（分形），晶体的生长遵循粒子级的通用自组织模式，从而导致表面粗糙度的波动。 > 
+10.1038/nphys241,Microstructure and viscoelasticity of confined semiflexible polymer networks,受限半柔性聚合物网络的微观结构和粘弹性 ,"<p>The rapidly decreasing dimensions of many technological devices have spurred interest in confinement effects. Long before, living organisms invented ingenious ways to cope with the requirement of space-saving designs down to the cellular level. Typical length scales in cells range from nanometres to micrometres so that the polymeric constituents of the cytoskeleton are often geometrically confined. Hence, the mechanical response of polymers to external confinement has potential implications both for technology and for our understanding of biological systems alike. Here we report a study of in vitro polymerized filamentous actin confined to emulsion droplets. We correlate observations of the microstructure, local rheological properties and single-filament fluctuations. Enforcing progressively narrower confinement is found to induce a reduction of polymer fluctuations, network stiffening, structural heterogeneities and eventually cortex formation. We argue that the structural and mechanical effects can be consistently explained by a gradual suppression of single-polymer eigenmodes.</p>",<p>许多技术设备尺寸的迅速减小引起了人们对限制作用的兴趣。早在很久以前，生物就发明了巧妙的方法来应对节省空间的设计直至细胞水平的要求。细胞中典型的长度范围从纳米到微米，因此细胞骨架的聚合物成分通常受到几何限制。因此，聚合物对外部约束的机械响应对技术和我们对生物系统的理解都有潜在的影响。在这里，我们报告了局限于乳液液滴的体外聚合丝状肌动蛋白的研究。我们关联的微观结构，局部流变特性和单丝波动的观察。人们发现，逐步缩小限制范围可以减少聚合物波动，网络硬化，结构异质性并最终形成皮质。我们认为，通过逐步抑制单聚合物本征模式可以一致地解释结构和机械效应。</ p> 
+10.1038/nphys215,Angle-resolved phase-sensitive determination of the in-plane gap symmetry in YBa2Cu3O7−δ,YBa2Cu3O7-δ平面内间隙对称性的角度分辨相敏确定 ,"<p>Understanding the nature of the ground state and its low-lying excitations in the copper oxide superconductors is a prerequisite for determining the origin of high-temperature superconductivity. A superconducting order parameter (that is, the energy gap) with a predominantly 
+                        
+                          d
+                          
+                            
+                              X
+                              2
+                            
+                            &#8722;
+                            
+                              Y
+                              2
+                            
+                          
+                        
+                      
+ symmetry is well-established. However, various deviations from a pure d-wave pair state, such as the possibility of Cooper pairing with broken time-reversal symmetry or an admixed 
+                        
+                          d
+                          
+                            
+                              X
+                              2
+                            
+                            &#8722;
+                            
+                              Y
+                              2
+                            
+                          
+                        
+                      +s pair state, have been theoretically predicted and actively sought in numerous experimental studies. Here, we present an angle-resolved phase-sensitive technique for accurately determining the in-plane pairing symmetry, and demonstrate this technique in optimally doped YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7&#8722;&#948;</sub>. We find that the gap along the b-axis (Cu&#8211;O chain) direction is at least 20% larger than that along the a-axis direction, and that any imaginary i d<sub>x y</sub>, is or ip component must be smaller than a few per&#160;cent of the 
+                        
+                          d
+                          
+                            
+                              X
+                              2
+                            
+                            &#8722;
+                            
+                              Y
+                              2
+                            
+                          
+                        
+                       component of the gap.</p>","<p>了解基态及其在氧化铜超导体中的低激发是确定高温超导起源的先决条件。超导阶数参数（即能隙）主要具有
+                        
+                          d
+                          
+                            
+                              X
+                              2
+                            
+                            ＆＃8722;
+                            
+                              ÿ
+                              2
+                            
+                          
+                        
+                      
+ 对称性是公认的。但是，与纯d波对状态存在各种偏差，例如Cooper配对具有破损的时间反转对称性或混合的可能性。
+                        
+                          d
+                          
+                            
+                              X
+                              2
+                            
+                            ＆＃8722;
+                            
+                              ÿ
+                              2
+                            
+                          
+                        
+                      + s对状态，已经在理论上进行了预测，并在许多实验研究中得到了积极的探索。在这里，我们提出了一种用于精确确定面内配对对称性的角度分辨相敏技术，并在最佳掺杂YBa <sub> 2 </ sub> Cu <sub> 3 </ sub> O <sub > 7＆＃8722;＆＃948; </ sub>。我们发现，沿b轴（Cu＆＃8211; O链）方向的间隙比沿a轴方向的间隙至少大20％，并且任何虚构id <sub> xy </ sub>为或ip组件必须小于百分之一的百分比
+                        
+                          d
+                          
+                            
+                              X
+                              2
+                            
+                            ＆＃8722;
+                            
+                              ÿ
+                              2
+                            
+                          
+                        
+                       差距的组成部分。</ p> "
+10.1038/nphys238,Electric-dipole-induced spin resonance in disordered semiconductors,电偶极子引起的无序半导体中的自旋共振 ,"<p>One of the hallmarks of spintronics is the control of magnetic moments by electric fields enabled by strong spin&#8211;orbit interaction (SOI) in semiconductors. A powerful way of manipulating spins in such structures is electric-dipole-induced spin resonance (EDSR), where the radio-frequency fields driving the spins are electric, not magnetic as in standard paramagnetic resonance. Here, we present a theoretical study of EDSR for a two-dimensional electron gas in the presence of disorder, where random impurities not only determine the electric resistance but also the spin dynamics through SOI. Considering a specific geometry with the electric and magnetic fields parallel and in-plane, we show that the magnetization develops an out-of-plane component at resonance that survives the presence of disorder. We also discuss the spin Hall current generated by EDSR. These results are derived in a diagrammatic approach, with the dominant effects coming from the spin vertex correction, and the optimal parameter regime for observation is&#160;identified.</p>",<p>自旋电子学的标志之一是通过半导体中强自旋轨道相互作用（SOI）启用的电场来控制磁矩。操纵这种结构中的自旋的一种有效方法是电偶极子感应的自旋共振（EDSR），其中驱动自旋的射频场是电的，而不像标准顺磁共振那样是磁性的。在这里，我们提出了在无序存在下二维电子气中EDSR的理论研究，其中随机杂质不仅决定了电阻，而且决定了SOI的自旋动力学。考虑到电场和磁场平行且在平面内的特定几何形状，我们表明磁化强度会在共振条件下发展出平面外分量，该分量可以在无序状态下幸存下来。我们还将讨论由EDSR产生的自旋霍尔电流。这些结果是通过图解方法得出的，其主要影响来自自旋顶点校正，并且确定了用于观察的最佳参数方案。</ p> 
+10.1038/nphys235,Frustration on the way to crystallization in glass,玻璃结晶过程中的挫败感 ,"<p>Some liquids do not crystallize below the melting point, but instead enter into a supercooled state and on cooling eventually become a glass at the glass-transition temperature. During this process, the liquid dynamics not only drastically slow down, but also become progressively more heterogeneous. The relationship between the kinetic slowing down and growing dynamic heterogeneity is a key problem of the liquid&#8211;glass transition. Here, we study this problem by using a liquid model, with a crystalline ground state, for which we can systematically control frustration against crystallization. We found that slow regions having a high degree of crystalline order emerge below the melting point, and their characteristic size and lifetime increase steeply on cooling. These crystalline regions lead to dynamic heterogeneity, suggesting a connection to the complex free-energy landscape and the resulting slow dynamics. These findings point towards an intrinsic link between the glass transition and crystallization.</p>",<p>某些液体不会在熔点以下结晶，而是进入过冷状态，冷却后最终在玻璃化转变温度下变成玻璃。在此过程中，液体动力学不仅急剧减慢，而且逐渐变得更加不均匀。动力学减慢和增长的动态异质性之间的关系是液体玻璃化转变的关键问题。在这里，我们通过使用具有结晶基态的液体模型来研究此问题，对于该问题，我们可以系统地控制挫败以防止结晶。我们发现，具有较高晶序度的慢区出现在熔点以下，并且其特征尺寸和寿命在冷却时急剧增加。这些晶体区域导致动态异质性，表明与复杂的自由能态势和由此产生的缓慢动力学有关。这些发现指向玻璃化转变与结晶之间的内在联系。</ p> 

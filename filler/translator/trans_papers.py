@@ -1,11 +1,21 @@
 import os
-import csv
+import sys
 
 from google_translator import translate
 
 
 PROJECT_ROOT = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '../../'))
+
+lib_path = os.path.join(
+    PROJECT_ROOT, 'libs'
+)
+
+sys.path.insert(0, lib_path)
+
+from data_loader.csv_loader.nature_data_loader import iter_nature_data
+from data_dumper.csv_writer import save_csv
+
 
 input_path = os.path.join(
     PROJECT_ROOT, 'paper-data/rawdata/nature')
@@ -33,42 +43,19 @@ output_header = [
 
 
 def main():
-    for journal_pcode in sorted(os.listdir(input_path)):
-        journal_path = os.path.join(input_path, journal_pcode)
-        for issue in sorted(os.listdir(journal_path)):
+    data_type = 'rawdata'
+    for journal_pcode, issue, issue_data in iter_nature_data(data_type):
             output_file = os.path.join(
                 output_dir, journal_pcode, issue
             )
 
             if os.path.exists(output_file):
-                # print('skip, output file exists: %s' % output_file)
+                print('skip, output file exists: %s' % output_file)
                 continue
 
-            issue_csv_file = os.path.join(journal_path, issue)
-            issue_data = load_journal_issue_data(issue_csv_file)
             trans_data = trans_records(issue_data)
             save_csv(output_file, output_header, trans_data)
             print('saved: %s' % output_file)
-
-
-def load_journal_issue_data(issue_csv_file):
-    with open(issue_csv_file, 'r') as fr:
-        csv_reader = csv.DictReader(fr)
-        data = [line for line in csv_reader]
-
-    return data
-
-
-def save_csv(filename, header, data):
-    file_dir = os.path.dirname(filename)
-    if not os.path.exists(file_dir):
-        os.makedirs(file_dir)
-
-    with open(filename, 'w') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=header)
-        writer.writeheader()
-        for p in data:
-            writer.writerow(p)
 
 
 def trans_records(issue_data):

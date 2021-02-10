@@ -25,6 +25,22 @@ proxychains4 -q python filler/translator/trans_papers.py
 python merger/nature/merge_issuely_csv_files.py
 ```
 
+upload to 黑帕云
+
+渣渣 API，大约需要等待 30 min 才能上传 5000 条数据。
+
+```bash
+python tools/upload_papers_to_hipacloud.py
+```
+
+下面的方法，效率更低，放弃。
+
+```bash
+rm -rf tmp-data && mkdir tmp-data && split -l 520 paper-data/merged/nature/nature_papers_merged_long_paper.csv tmp-data/long_paper_part
+```
+
+网站的导入能力极差，先苟一下。
+
 
 ## Setup
 

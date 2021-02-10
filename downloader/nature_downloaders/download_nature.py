@@ -3,6 +3,7 @@ import json
 import re
 import bleach
 import os
+import sys
 
 from jkPyUtils.requests2.fetch import get_url_text
 
@@ -11,6 +12,16 @@ from lxml import etree
 
 PROJECT_ROOT = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '../../'))
+
+lib_path = os.path.join(
+    PROJECT_ROOT, 'libs'
+)
+
+sys.path.insert(0, lib_path)
+
+from data_dumper.csv_writer import save_result_csv
+
+
 output_dir = os.path.join(
     PROJECT_ROOT, 'paper-data/rawdata/nature')
 
@@ -64,36 +75,8 @@ def download_issue_meta(journal_pcode, volume, issue):
         except Exception as e:
             print('!!! error', e)
 
-    save_csv(fname, paper_meta)
+    save_result_csv(fname, paper_meta)
     return paper_meta
-
-
-# @API
-def save_csv(fname, paper_meta):
-    if len(paper_meta) == 0:
-        return
-
-    journal_dirname = os.path.dirname(fname)
-    if not os.path.exists(journal_dirname):
-        os.makedirs(journal_dirname)
-
-    required_f = ['contentType', 'title']
-    extra_f = set(paper_meta[0].keys()) - set(required_f)
-    fieldnames = required_f + sorted(extra_f)
-
-    with open(fname, 'w') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        for p in paper_meta:
-            writer.writerow(p)
-
-    print('---> %s papers in %s' % (len(paper_meta), fname))
-
-
-def translate(src):
-    return ''
-    # output = translator.translate(src, dest='zh-cn').text
-    # return output
 
 
 def get_nodes_from_html(html, xpath_ptn):

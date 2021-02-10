@@ -285,8 +285,14 @@ class JournalDownloader():
 
 
 if __name__ == '__main__':
-    # dl = JournalDownloader('nphoton')
-    # dl = JournalDownloader('lsa')
-    dl = JournalDownloader('nnano')
-    # dl.download_vol1()
-    dl.download_latest()
+    journal_pcodes = [
+        'nphoton',
+        'nnano',
+        'nphys',
+        'lsa',
+    ]
+
+    for journal in journal_pcodes:
+        dl = JournalDownloader(journal)
+        # dl.download_vol1()
+        dl.download_latest()

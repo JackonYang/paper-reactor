@@ -18,7 +18,7 @@ record_key_name = 'doi'
 field_to_trans = [
     'title',
     'abstract',
-    'affiliations',
+    # 'affiliations',
 ]
 
 output_header = [
@@ -27,8 +27,8 @@ output_header = [
     'title_cn',
     'abstract',
     'abstract_cn',
-    'affiliations',
-    'affiliations_cn',
+    # 'affiliations',
+    # 'affiliations_cn',
 ]
 
 

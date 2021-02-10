@@ -28,12 +28,13 @@ def iter_nature_data(data_type='rawdata'):
         journal_path = os.path.join(input_path, journal_pcode)
         for issue in sorted(os.listdir(journal_path)):
             issue_csv_file = os.path.join(journal_path, issue)
-            issue_data = load_journal_issue_data(issue_csv_file)
+            issue_data = load_csv_file(issue_csv_file)
             yield (journal_pcode, issue, issue_data)
 
 
-def load_journal_issue_data(issue_csv_file):
-    with open(issue_csv_file, 'r') as fr:
+# @API
+def load_csv_file(filename):
+    with open(filename, 'r') as fr:
         csv_reader = csv.DictReader(fr)
         data = [line for line in csv_reader]
 

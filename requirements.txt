@@ -1,5 +1,6 @@
 requests==2.25.1
 google_trans_new==1.1.9
 bleach==3.3.0
+lxml==4.6.2
 
-jkPyUtils==0.0.2
+jkPyUtils==0.0.3

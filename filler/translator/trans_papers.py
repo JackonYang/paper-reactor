@@ -15,7 +15,7 @@ sys.path.insert(0, lib_path)
 
 from data_loader.csv_loader.nature_data_loader import iter_nature_data
 from data_dumper.csv_writer import save_csv
-from config.content_types import translateContentTypes
+# from configs.content_types import translateContentTypes
 
 
 input_path = os.path.join(
@@ -51,7 +51,7 @@ def main():
             )
 
             if os.path.exists(output_file):
-                print('skip, output file exists: %s' % output_file)
+                # print('skip, output file exists: %s' % output_file)
                 continue
 
             trans_data = trans_records(issue_data)
@@ -65,8 +65,8 @@ def trans_records(issue_data):
 
         contentType = record['contentType']
 
-        if contentType not in translateContentTypes:
-            continue
+        # if contentType not in translateContentTypes:
+        #    continue
 
         trans_record = {
             key: record[key] for key in field_to_trans

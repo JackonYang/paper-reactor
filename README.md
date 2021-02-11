@@ -46,6 +46,12 @@ rm -rf tmp-data && mkdir tmp-data && split -l 520 paper-data/merged/nature/natur
 python analyzer/topic_photonics/data_insights/list_paper_types.py > docs/nature/contentType-list.md
 ```
 
+翻译速度：
+
+1. 调用 Google translate API，安全起见，间隔 5 秒。
+2. 一篇文章翻译 2 个字段 ：title/abstract，需 10 秒。
+3. 一小时可以翻译 360 篇文章。全量文章共 10k 篇，大约需要 30 小时。
+
 
 ## Setup
 

@@ -15,6 +15,7 @@ sys.path.insert(0, lib_path)
 
 from data_loader.csv_loader.nature_data_loader import iter_nature_data
 from data_dumper.csv_writer import save_csv
+from config.content_types import translateContentTypes
 
 
 input_path = os.path.join(
@@ -64,7 +65,7 @@ def trans_records(issue_data):
 
         contentType = record['contentType']
 
-        if contentType not in ['letter', 'article']:
+        if contentType not in translateContentTypes:
             continue
 
         trans_record = {

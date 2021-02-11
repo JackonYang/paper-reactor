@@ -1,4 +1,21 @@
 doi,title,title_cn,abstract,abstract_cn
+10.1038/nphys4359,Everyone's a critic,每个人都是批评家 ,,
+10.1038/nphys4350,The dynamics of Van Allen belts revisited,再谈Van Allen皮带的动力学 ,,
+10.1038/nphys4351,Reply to 'The dynamics of Van Allen belts revisited',回复“重新审视Van Allen皮带的动态” ,,
+10.1038/nphys4347,An early peak in ion channel research,离子通道研究的早期高峰 ,,
+10.1038/nphys4353,Critical response,关键反应 ,,
+10.1038/nphys4352,"Life, the Universe and almost everything",生活，宇宙以及几乎所有事物 ,,
+10.1038/nphys4354,The discovery of skewness,偏度的发现 ,,
+10.1038/nphys4355,Scalable vortices,可扩展的漩涡 ,,
+10.1038/nphys4356,Hot quantum spin Hall effect,热量子自旋霍尔效应 ,,
+10.1038/nphys4357,Einstein by implication,爱因斯坦的暗示 ,,
+10.1038/nphys4358,A homogeneous sheet,均质片材 ,,
+10.1038/nphys4308,Breaking up is hard to do,分手很难做 ,,
+10.1038/nphys4314,Ultrafast laser optical pinball,超快激光光学弹球 ,,
+10.1038/nphys4331,Brought to light,被曝光 ,,
+10.1038/nphys3944,"Same object, different symmetry",同一对象，不同对称 ,,
+10.1038/nphys4346,The power of independence,独立的力量 ,,
+10.1038/nphys4348,Symmetry and emergence,对称性和出现 ,,
 10.1038/nphys4282,Inelastic ponderomotive scattering of electrons at a high-intensity optical travelling wave in vacuum,真空中高强度光传播波对电子的非弹性质子散射 ,,
 10.1038/nphys4301,Quantum imaging with incoherently scattered light from a free-electron laser,来自自由电子激光的非相干散射光的量子成像 ,,
 10.1038/nphys4303,Anomalous dispersion of microcavity trion-polaritons,微腔三极化子-极化子的反常色散 ,,
@@ -13,3 +30,4 @@ doi,title,title_cn,abstract,abstract_cn
 10.1038/nphys4306,Unconventional mass enhancement around the Dirac nodal loop in ZrSiS,ZrSiS中Dirac节点环周围的非常规质量增强 ,"<p>The topological properties of fermions arise from their low-energy Dirac-like band dispersion and associated chirality. Initially confined to points, extensions of the Dirac dispersion to lines, and even loops, have now been uncovered, and semimetals hosting such features have been identified. However, experimental evidence for the enhanced correlation effects predicted to occur in these topological semimetals has been lacking. Here, we report a quantum oscillation study of the nodal-loop semimetal ZrSiS in high magnetic fields that reveals significant enhancement in the effective mass of the quasiparticles residing near the nodal loop. Above a threshold field, magnetic breakdown occurs across gaps in the loop structure with orbits that enclose different windings around its vertices, each winding accompanied by an additional &#960; Berry phase. The amplitudes of these breakdown orbits exhibit an anomalous temperature dependence. These findings demonstrate the emergence of novel, correlation-driven physics in ZrSiS associated with the Dirac-like quasiparticles.</p>",<p>费米子的拓扑特性是由它们的低能量狄拉克样带分散和相关的手性引起的。最初仅限于点，现已发现Dirac色散扩展到线，甚至是环，并且已经识别出具有这种特征的半金属。然而，缺乏在这些拓扑半金属中预计会发生的增强相关效应的实验证据。在这里，我们报告了在高磁场中节点环半金属ZrSiS的量子振荡研究，该结果表明驻留在节点环附近的准粒子的有效质量显着提高。超过阈值场时，磁击穿会发生在环路结构的各个间隙中，这些轨道的轨道围绕其顶点围绕不同的绕组，每个绕组都附加一个＆＃960;浆果阶段。这些击穿轨道的振幅表现出反常的温度依赖性。这些发现证明了ZrSiS中与狄拉克型准粒子有关的新颖的，相关驱动的物理学的出现。</ p> 
 10.1038/nphys4309,Phase ordering of charge density waves traced by ultrafast low-energy electron diffraction,超快速低能电子衍射追踪的电荷密度波的相序 ,"<p>We introduce ultrafast low-energy electron diffraction (ULEED) in backscattering for the study of structural dynamics at surfaces. Using a tip-based source of ultrashort electron pulses, we investigate the optically driven transition between charge density wave phases at the surface of 1T-TaS<sub>2</sub>. The large transfer width of the instrument allows us to employ spot-profile analysis, resolving the phase-ordering kinetics in the nascent incommensurate charge density wave phase. We observe a coarsening that follows a power-law scaling of the correlation length, driven by the annihilation of dislocation-type topological defects of the charge-ordered lattice. Our work opens up the study of a wide class of structural transitions and ordering phenomena at surfaces and in low-dimensional systems.</p>",<p>我们在反向散射中引入了超快低能电子衍射（ULEED），以研究表面的结构动力学。 使用基于尖端的超短电子脉冲源，研究了1T-TaS <sub> 2 </ sub>表面的电荷密度波相之间的光学驱动跃迁。 仪器的大传输宽度使我们能够进行斑点轮廓分析，从而解决了新生的不相称电荷密度波相中的相序动力学。 我们观察到粗化遵循相关长度的幂律定标，由电荷排序晶格的位错型拓扑缺陷的driven灭驱动。 我们的工作开启了对表面和低维系统中各种结构转变和有序现象的研究。</ p> 
 10.1038/nphys4305,How drops start sliding over solid surfaces,液滴如何开始在固体表面上滑动 ,"<p>It has been known for more than 200 years that the maximum static friction force between two solid surfaces is usually greater than the kinetic friction force&#8212;the force that is required to maintain the relative motion of the surfaces once the static force has been overcome. But the forces that impede the lateral motion of a drop of liquid on a solid surface are not as well characterized, and there is a lack of understanding about liquid&#8211;solid friction in general. Here, we report that the lateral adhesion force between a liquid drop and a solid can also be divided into a static and a kinetic regime. This striking analogy with solid&#8211;solid friction is a generic phenomenon that holds for liquids of different polarities and surface tensions on smooth, rough and structured surfaces.</p>",<p>人们已经知道200多年，两个固体表面之间的最大静摩擦力通常大于动摩擦力，一旦静力保持表面相对运动所需的力 已经克服了。 但是，阻碍液体在固体表面上的横向运动的力没有得到很好的表征，并且通常对液体的固体摩擦缺乏了解。 在这里，我们报道液滴和固体之间的横向粘附力也可以分为静态和动力学状态。 这种与固体摩擦的惊人类比是一种普遍现象，适用于在光滑，粗糙和结构化表面上具有不同极性和表面张力的液体。</ p> 
+10.1038/nphys4349,In search of the nuclear clock,寻找核钟 ,,

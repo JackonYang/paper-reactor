@@ -1,4 +1,17 @@
 doi,title,title_cn,abstract,abstract_cn
+10.1038/nphoton.2017.84,Reconsidering the Shockley–Queisser limit of a ferroelectric insulator device,重新考虑铁电绝缘体设备的Shockley-Queisser极限 ,,
+10.1038/nphoton.2017.85,Reply to 'Reconsidering the Shockley–Queisser limit of a ferroelectric insulator device',答复“重新考虑铁电绝缘体装置的Shockley-Queisser极限” ,,
+10.1038/nphoton.2017.88,Ultrafast pulse switching,超快速脉冲切换 ,,
+10.1038/nphoton.2017.89,Chip-based thermal emitter,基于芯片的热辐射器 ,,
+10.1038/nphoton.2017.90,Transparent perfect mirror,透明完美的镜子 ,,
+10.1038/nphoton.2017.91,Laser-induced superconductor,激光诱导超导体 ,,
+10.1038/nphoton.2017.92,Cosmic random numbers,宇宙随机数 ,,
+10.1038/nphoton.2017.83,Image sensors go broadband,图像传感器进入宽带 ,,
+10.1038/nphoton.2017.80,Optical waveform reconstruction,光波形重建 ,,
+10.1038/nphoton.2017.87,Retina-like single-pixel camera,类视网膜的单像素相机 ,,
+10.1038/nphoton.2017.77,Femtosecond polarization switching,飞秒极化切换 ,,
+10.1038/nphoton.2017.78,A channel of perfect transmission,完美传播的渠道 ,,
+10.1038/nphoton.2017.76,Time stretch and its applications,时间延长及其应用 ,,
 10.1038/nphoton.2017.74,Nanofibre optic force transducers with sub-piconewton resolution via near-field plasmon–dielectric interactions,通过近场等离子体激元-介电相互作用具有亚皮秒级分辨率的纳米光纤力传感器 ,,
 10.1038/nphoton.2017.65,Imaging exciton–polariton transport in MoSe2 waveguides,MoSe2波导中的激子-极化子传输成像 ,,
 10.1038/nphoton.2017.63,High-efficiency multiphoton boson sampling,高效多光子玻色子采样 ,"<p>Boson sampling is considered as a strong candidate to demonstrate &#8216;quantum computational supremacy&#8217; over classical computers. However, previous proof-of-principle experiments suffered from small photon number and low sampling rates owing to the inefficiencies of the single-photon sources and multiport optical interferometers. Here, we develop two central components for high-performance boson sampling: robust multiphoton interferometers with 99% transmission rate and actively demultiplexed single-photon sources based on a quantum dot&#8211;micropillar with simultaneously high efficiency, purity and indistinguishability. We implement and validate three-, four- and five-photon boson sampling, and achieve sampling rates of 4.96&#8197;kHz, 151&#8197;Hz and 4&#8197;Hz, respectively, which are over 24,000 times faster than previous experiments. Our architecture can be scaled up for a larger number of photons and with higher sampling rates to compete with classical computers, and might provide experimental evidence against the extended Church&#8211;Turing thesis.</p>","<p>玻色子抽样被认为是证明“量子计算至上”的强有力的候选者。在经典计算机上。但是，由于单光子源和多端口光学干涉仪的低效率，以前的原理验证实验遭受的光子数量少和采样率低。在这里，我们开发了两个用于高性能玻色子采样的核心组件：具有99％传输率的坚固多光子干涉仪和基于量子点的微阵列主动解复用的单光子源，同时具有高效率，纯度和可分辨性。我们实施并验证了三光子，四光子和五光子玻色子采样，并分别实现了4.96＆kHz; kHz，151＆＃8197; Hz和4＆＃8197; Hz的采样率，这比以前快了24,000倍实验。我们的体系结构可以按比例放大以使用更多的光子，并可以以更高的采样率与经典计算机竞争，并且可以为扩展的Church'＃Turing论文提供实验证据。 "

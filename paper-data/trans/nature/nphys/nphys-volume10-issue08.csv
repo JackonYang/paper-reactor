@@ -1,4 +1,23 @@
 doi,title,title_cn,abstract,abstract_cn
+10.1038/nphys3070,Having it all,全部拥有 ,,
+10.1038/nphys3052,All the colours of the rainbow,彩虹的所有颜色 ,,
+10.1038/nphys3064,Equivalence principle,等价原理 ,,
+10.1038/nphys3039,The fantastically marvellous universe,奇妙的宇宙 ,,
+10.1038/nphys3055,Creative energy,创意能量 ,,
+10.1038/nphys3056,Cut and colour,切割和上色 ,,
+10.1038/nphys3065,Raise a glass,举起一杯 ,,
+10.1038/nphys3066,Local hot bubble,本地热泡泡 ,,
+10.1038/nphys3067,Protein power,蛋白质力量 ,,
+10.1038/nphys3068,Back from the future,从未来回来 ,,
+10.1038/nphys3069,Spin for heat,旋转加热 ,,
+10.1038/nphys3043,Getting the drops in,滴入 ,,
+10.1038/nphys3046,SHE's electric,SHE的电 ,,
+10.1038/nphys3045,Displaced creation,置换创作 ,,
+10.1038/nphys3057,Give it a whirl,旋转一下 ,,
+10.1038/nphys3063,At full tilt,全倾斜 ,,
+10.1038/nphys3038,On the ladder,在梯子上 ,,
+10.1038/nphys3054,In search of the perfect glass,寻找完美的玻璃 ,,
+10.1038/nphys3062,A stretch for any brain,舒展筋骨 ,,
 10.1038/nphys3005,Evidence for the direct decay of the 125 GeV Higgs boson to fermions,125 GeV希格斯玻色子直接衰变为费米子的证据 ,,
 10.1038/nphys3004,Spin Hall effect tunnelling spectroscopy,自旋霍尔效应隧穿光谱 ,,
 10.1038/nphys3008,Dissipative superconducting state of non-equilibrium nanowires,非平衡纳米线的耗散超导状态 ,,
@@ -9,3 +28,4 @@ doi,title,title_cn,abstract,abstract_cn
 10.1038/nphys3010,Signatures of the continuum electron phase in molecular strong-field photoelectron holography,分子强场光电子全息术中连续电子相的特征 ,"<p>Laser-driven electron recollision is at the heart of the rapidly growing field of attosecond science. The recollision wavepacket is qualitatively described within the strong-field approximation, which commonly assumes tunnelling ionization and plane-wave propagation of the liberated electron in the continuum. However, with increasing experimental sophistication, refinements to this simple model have become necessary. Through careful modelling and measurements of laser-induced recollision holography using aligned N<sub>2</sub> molecules, we demonstrate that the continuum electron wavepacket already carries a non-trivial spatial phase structure immediately following ionization. This effect is of rather general character: any molecule and any non-isotropic system that is ionized by a strong laser field will exhibit an offset in the phase of the continuum electron wavepacket. Specifically, this has important implications for any coherent scattering process in molecules, such as high-harmonic generation or laser-induced electron&#160;holography.</p>",激光驱动的电子碰撞是原子科学迅速发展的领域的核心。在强场近似中定性地描述了反碰撞波包，该假设通常假定隧道电离和被释放电子在连续谱中的平面波传播。但是，随着实验复杂性的提高，对这种简单模型的改进变得很有必要。通过使用对准的N <sub> 2 </ sub>分子对激光诱导的碰撞全息术进行仔细的建模和测量，我们证明了连续电子波包在电离后立即已经具有非平凡的空间相结构。这种影响具有相当普遍的特征：被强激光场电离的任何分子和任何非各向同性系统都会在连续电子波包的相位上出现偏移。具体来说，这对分子中的任何相干散射过程都具有重要意义，例如高谐波产生或激光诱导的电子全息。</ p> 
 10.1038/nphys3013,Demonstration of magnetically activated and guided isotope separation,磁激活和引导同位素分离的演示 ,"<p>Enriched isotopes are widely used in medicine, basic science and energy production, and the need will only grow in the future. The main method for enriching stable isotopes today, the calutron, dates back over eighty years and has an uncertain future, creating an urgent need, especially in nuclear medicine. We report here the experimental realization of a general and efficient method for isotope separation that presents a viable alternative to the calutron. Combining optical pumping and a unique magnet geometry, we observe substantial depletion of Li-6 throughput in a lithium atomic beam produced by an evaporation source over a range of flux. These results demonstrate the viability of our method to yield large degrees of enrichment in a manner that is amenable to industrial scale-up and the production of commercially relevant quantities.</p>",<p>富集同位素被广泛用于医学，基础科学和能源生产，并且这种需求只会在未来增长。 如今，作为稳定同位素富集的主要方法，量热计可以追溯到八十多年，并且前途未卜，迫切需要，尤其是在核医学领域。 我们在这里报告了一种常规有效的同位素分离方法的实验实现，该方法提出了一种替代量热计的可行方法。 结合光泵浦和独特的磁体几何形状，我们观察到在一定通量范围内，蒸发源产生的锂原子束中Li-6吞吐量的显着消耗。 这些结果证明了我们的方法能够以适合工业规模生产和商业上大量生产的方式产生大量富集的可行性。</ p> 
 10.1038/nphys3003,Nanoemulsions obtained via bubble-bursting at a compound interface,通过在复合界面上的气泡喷射获得的纳米乳液 ,"<p>Bursting of bubbles at an air/liquid interface is a familiar occurrence relevant to foam stability, cell cultures in bioreactors and ocean&#8211;atmosphere mass transfer. In the latter case, bubble-bursting leads to the dispersal of sea-water aerosols in the surrounding air. Here we show that bubbles bursting at a compound air/oil/water-with-surfactant interface can disperse submicrometre oil droplets in water. Dispersal results from the detachment of an oil spray from the bottom of the bubble towards water during bubble collapse. We provide evidence that droplet size is selected by physicochemical interactions between oil molecules and the surfactants rather than by hydrodynamics. We demonstrate the unrecognized role that this dispersal mechanism may play in the fate of the sea surface microlayer and of pollutant spills by dispersing petroleum in the water column. Finally, our system provides an energy-efficient route, with potential upscalability, for applications in drug delivery, food production and materials science.</p>",<p>空气/液体界面处的气泡破裂是与泡沫稳定性，生物反应器中的细胞培养以及海洋大气传质有关的常见现象。在后一种情况下，气泡破裂导致海水气溶胶在周围空气中扩散。在这里，我们显示在具有表面活性剂的复合空气/油/水界面处破裂的气泡可以将亚微米油滴分散在水中。分散是由于在气泡破裂期间油雾从气泡底部向水的分离所致。我们提供的证据表明，液滴的大小是通过油分子与表面活性剂之间的物理化学相互作用而不是通过流体动力学来选择的。我们证明了这种分散机制可能通过将石油分散在水柱中而在海表微层和污染物溢出的命运中发挥不可识别的作用。最后，我们的系统为药物输送，食品生产和材料科学中的应用提供了一种具有潜在可扩展性的节能途径。</ p> 
+10.1038/nphys3073,Reef,礁 ,,

@@ -41,6 +41,11 @@ rm -rf tmp-data && mkdir tmp-data && split -l 520 paper-data/merged/nature/natur
 
 网站的导入能力极差，先苟一下。
 
+```bash
+# list article type
+python analyzer/topic_photonics/data_insights/list_paper_types.py > docs/nature/contentType-list.md
+```
+
 
 ## Setup
 

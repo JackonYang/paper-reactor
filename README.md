@@ -25,6 +25,12 @@ proxychains4 -q python3 filler/translator/trans_papers.py
 python3 merger/nature/merge_issuely_csv_files.py
 ```
 
+analysis
+
+```bash
+python3 analyzer/topic_photonics/data_insights/list_paper_types.py > docs/nature/contentType-list.md
+```
+
 upload to 黑帕云
 
 渣渣 API，大约需要等待 30 min 才能上传 5000 条数据。

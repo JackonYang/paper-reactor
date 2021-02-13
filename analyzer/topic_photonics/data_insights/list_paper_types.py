@@ -19,7 +19,10 @@ def main():
         for row in csv_reader:
             contentTypes.append(row.get('contentType'))
 
-    print(len(contentTypes))
+    print('# Nature 期刊下文章类型分布')
+    print('')
+    print('total: %s' % len(contentTypes))
+    print('')
 
     type_counts = {i: contentTypes.count(i) for i in set(contentTypes)}
     print('| contentType | paper count |')

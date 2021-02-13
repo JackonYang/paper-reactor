@@ -4,15 +4,12 @@ import sys
 
 PROJECT_ROOT = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '../../'))
+sys.path.insert(0, PROJECT_ROOT)
 
-lib_path = os.path.join(
-    PROJECT_ROOT, 'libs'
-)
+from libs.data_loader.csv_loader.nature_data_loader import load_nature_data
+from libs.data_dumper.csv_writer import save_result_csv
 
-sys.path.insert(0, lib_path)
-
-from data_loader.csv_loader.nature_data_loader import load_nature_data
-from data_dumper.csv_writer import save_result_csv
+from normalizer.cleanse_address import norm_addr
 
 
 output_dir = os.path.join(
@@ -38,6 +35,8 @@ def main():
         key = record[DOI_KEY]
         if key in trans_map:
             record.update(trans_map[key])
+
+        record.update(norm_addr(record))
 
     output(data)
 

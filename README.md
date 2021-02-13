@@ -18,11 +18,11 @@
 
 ```bash
 # download new papers
-python downloader/nature_downloaders/download_nature.py
+python3 downloader/nature_downloaders/download_nature.py
 # translate using google API
-proxychains4 -q python filler/translator/trans_papers.py
+proxychains4 -q python3 filler/translator/trans_papers.py
 # merge issuely files into one
-python merger/nature/merge_issuely_csv_files.py
+python3 merger/nature/merge_issuely_csv_files.py
 ```
 
 upload to 黑帕云
@@ -30,7 +30,7 @@ upload to 黑帕云
 渣渣 API，大约需要等待 30 min 才能上传 5000 条数据。
 
 ```bash
-python tools/upload_papers_to_hipacloud.py
+python3 tools/upload_papers_to_hipacloud.py
 ```
 
 下面的方法，效率更低，放弃。
@@ -43,7 +43,7 @@ rm -rf tmp-data && mkdir tmp-data && split -l 520 paper-data/merged/nature/natur
 
 ```bash
 # list article type
-python analyzer/topic_photonics/data_insights/list_paper_types.py > docs/nature/contentType-list.md
+python3 analyzer/topic_photonics/data_insights/list_paper_types.py > docs/nature/contentType-list.md
 ```
 
 翻译速度：

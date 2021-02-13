@@ -20,7 +20,22 @@ DOI_KEY = 'doi'
 
 filters = {
     'long_paper': lambda x: x['contentType'] in ['article', 'letter'],
+    'brief_news': lambda x: x['contentType'] in [
+        'news & views',
+        'research highlights',
+        'research highlight',
+        'comment',
+        'product highlights',
+        'business news',
+        'product focus',
+    ],
 }
+
+
+comma_split_list_fields = [
+    'subjects',
+    'focus',
+]
 
 
 def main():
@@ -37,6 +52,8 @@ def main():
             record.update(trans_map[key])
 
         record.update(norm_addr(record))
+        for key in comma_split_list_fields:
+            record[key] = record[key].replace(';', ',')
 
     output(data)
 

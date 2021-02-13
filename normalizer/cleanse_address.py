@@ -24,8 +24,11 @@ def norm_addr(record):
         unique_universitys.append(unique_university)
 
     data = {
-        'normed_countrys': json.dumps(list(countrys)),
-        'normed_universitys': json.dumps(list(universitys)),
-        'normed_unique_universitys': json.dumps(list(unique_universitys)),
+        # 'normed_countrys': json.dumps(list(countrys)),
+        'normed_countrys': ', '.join(countrys),
+        # 'normed_universitys': json.dumps(list(universitys)),
+        'normed_universitys': ', '.join(universitys),
+        # 'normed_unique_universitys': json.dumps(list(unique_universitys)),
+        'normed_unique_universitys': ', '.join(unique_universitys),
     }
     return data

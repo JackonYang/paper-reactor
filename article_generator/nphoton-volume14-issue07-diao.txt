@@ -1,0 +1,77 @@
+Test of general relativity by a pair of transportable optical lattice clocks
+
+A clock at a higher altitude ticks faster than one at a lower altitude, in accordance with Einstein’s theory of general relativity. The outstanding stability and accuracy of optical clocks, at 10<sup>-18</sup> levels, allows height differences of a centimetre to be measured. However, such state-of-the-art clocks have been demonstrated only in well-conditioned laboratories. Here, we demonstrate an 18-digit-precision frequency comparison in a broadcasting tower, Tokyo Skytree, by developing transportable optical lattice clocks. The tower provides the clocks with adverse conditions to test the robustness and a 450 m height difference to test the gravitational redshift at (1.4 ± 9.1) × 10−5. The result improves ground-based clock comparisons by an order of magnitude and is comparable with space experiments. Our demonstration shows that optical clocks resolving centimetres are technically ready for field applications, such as monitoring spatiotemporal changes of geopotentials caused by active volcanoes or crustal deformation and for defining the geoid, which will have an immense impact on future society.
+
+一对可移动光学晶格钟检验广义相对论
+
+根据爱因斯坦的广义相对论，在高海拔的时钟比在低海拔的时钟走得更快。精度为10<sup>-18</sup>量级的光学钟具有卓越的稳定性和准确性，可以测量1厘米的高度差。然而，这种最先进的时钟尚未走出实验室。本文通过开发可移动光学晶格钟，在东京天空树广播塔演示18位数字精度的频率差。该塔为时钟提供了多样的条件来测试可靠性，并提供了450米的高度差来测试引力红移(1.4±9.1)×10<sup>-5</sup>。该结果将地面时钟比较提高了一个数量级，与空间实验相当。我们的结果表明，分辨率为厘米的光学时钟在技术上已经为实地应用做好了准备，如监测活火山或地壳变形引起的地球重力的时空变化和确定大地水准面等，这将对未来社会产生巨大影响。
+
+--------------------
+
+Anomalous refraction of optical spacetime wave packets
+
+Refraction at the interface between two materials is fundamental to the interaction of light with photonic devices and to the propagation of light through the atmosphere at large. Underpinning the traditional rules for the refraction of an optical field is the tacit presumption of the separability of its spatial and temporal degrees of freedom. We show here that endowing a pulsed beam with precise spatiotemporal spectral correlations unveils remarkable refractory phenomena, such as group-velocity invariance with respect to the refractive index, group-delay cancellation, anomalous group-velocity increase in higher-index materials, and tunable group velocity by varying the angle of incidence. A law of refraction for ‘spacetime’ (ST) wave packets encompassing these effects is verified experimentally in a variety of optical materials. Spacetime refraction defies our expectations derived from Fermat’s principle and offers new opportunities for moulding the flow of light and other wave phenomena.
+
+光学时空波包的异常折射
+
+两种材料界面的折射是光与光子器件相互作用的基础，也是光在大气中传播的基础。光场折射的传统基础规则是其时空自由度可分的默认假设。本文通过赋予一个脉冲束精确的时空光谱相关性，可以揭示出显著的难解现象，如群速度相对于折射率的不变性，群延迟抵消，高折射率材料中的群速度异常增加，以及通过改变入射角度可调谐的群速度。包含这些效应的“时空”波包的折射定律在各种光学材料中得到了实验验证。时空折射违背了我们从费马原理推导出的预期，为塑造光的流动和其他波现象提供了新的机会。
+
+--------------------
+
+Implementation of quantum key distribution surpassing the linear rate-transmittance bound
+
+Quantum key distribution (QKD) offers a long-term solution to secure key exchange. Due to photon loss in transmission, it was believed that the repeaterless key rate is bounded by a linear function of the transmittance, O(η), limiting the maximal secure transmission distance. Recently, a novel type of QKD scheme has been shown to beat the linear bound and achieve a key rate performance of O(√η). Here, by employing the laser injection technique and the phase post-compensation method, we match the modes of two independent lasers and overcome the phase fluctuation. As a result, the key rate surpasses the linear bound via 302 km and 402 km commercial-fibre channels, over four orders of magnitude higher than existing results. Furthermore, our system yields a secret key rate of 0.118 bps with a 502 km ultralow-loss fibre. This new type of QKD pushes forward long-distance quantum communication for the future quantum internet.
+
+超越线性透过率边界的量子密钥分配
+
+量子密钥分发(QKD)提供了一种安全密钥交换的长期解决方案。由于光子在传输过程中存在损耗，因此认为无重复密钥率受透射率的线性函数O(η)约束，限制最大安全传输距离。最近，一种新型的QKD方案打破了线性边界，并实现了一个关键速率性能O(√η)。本文采用激光注入技术和相位后补偿方法，对两个独立激光器的模式进行匹配，克服了相位波动。因此，通过302公里和402公里的商业光纤信道，秘钥传输速率超过线性边界，比现有结果高出4个数量级。此外，我们的系统通过502公里的超低损耗光纤产生0.118 bps的密钥率。这种新型QKD技术推动了未来量子互联网的远距离量子通信。
+
+--------------------
+
+Exciton resonance tuning of an atomically thin lens
+
+The highly engineerable scattering properties of resonant optical antennas underpin the operation of metasurface-based flat optics. Thus far, the choice of antenna has been limited to shaped metallic and high-index semiconductor nanostructures that support geometrical plasmonic or Mie resonances. Whereas these resonant elements offer strong light–matter interaction and excellent control over the scattering phase and amplitude, their electrical tunability has proven to be quite limited. Here, we demonstrate how excitonic resonances in atomically thin semiconductors can be harnessed as a different, third type of resonance to create mutable, flat optics. These strong materials-based resonances are unmatched in their tunability with various external stimuli. To illustrate the concept, we first demonstrate how excitons can enhance the focusing efficiency of a millimetre-scale, patterned ws<sub>2</sub> zone plate lens. We also show how electrical gating can completely turn on and off the exciton resonance and thereby modulate the focusing efficiency by 33%.
+
+原子级薄透镜的激子共振调谐
+
+谐振光学天线的高工程化散射特性为超表面平面光学奠定了基础。迄今为止，天线的选择仅限于支持几何等离子体或Mie谐振的形状金属和高折射率半导体纳米结构。然而这些谐振元件提供了强的光物质相互作用和出色的控制散射相位和振幅，他们的电可调特性被认为相当有限。本文演示了如何在原子薄半导体中利用激子共振作为一种不同的、第三种类型的共振来创造可变的平面光学。这些以材料为基础的共振与各种外部激励的调谐不匹配。为了描述这一概念，我们首先演示激子如何提高具有毫米级采用 WS<sub>2</sub> 图形的平板透镜聚焦效率。我们还展示了门电压控制是如何完全打开和关闭激子共振，从而将聚焦效率调节到33%。
+
+--------------------
+
+Structured illumination microscopy using a photonic chip
+
+Structured illumination microscopy (SIM) enables live-cell super-resolution imaging of subcellular structures at high speeds. At present, linear SIM uses free-space optics to illuminate the sample with the desired light patterns; however, such arrangements are prone to misalignment and add cost and complexity to the microscope. Here, we present an alternative photonic chip-based two-dimensional SIM approach (cSIM) in which the conventional glass sample slide in a microscope is replaced by a planar photonic chip that importantly both holds and illuminates the specimen. The photonic chip reduces the footprint of the light illumination path of SIM to around 4 × 4 cm<sup>2</sup>. An array of optical waveguides on the chip creates standing wave interference patterns at different angles, which illuminate the sample via evanescent fields. High-refractive-index silicon nitride waveguides allow a 2.3 times enhancement in imaging spatial resolution, exceeding the usual 2 times limit of SIM. In summary, cSIM offers a simple, stable and affordable approach for performing two-dimensional super-resolution imaging over a large field of view.
+
+光子芯片结构照明显微术
+
+结构照明显微镜(SIM)能够对活细胞亚细胞结构进行高速超分辨成像。目前，线性SIM使用自由空间光学来照射样品所需的光图形;然而，这种结构容易形成错位，增加显微镜的成本和复杂性。本文提出一种基于光子芯片的二维SIM方法(cSIM)，显微镜中传统的玻璃样本载玻片被平面光子芯片取代，这种芯片可以装载和照射样品。光子芯片将SIM的光照路径减少到4×4 cm<sup>2</sup>左右。芯片上的光波导阵列在不同角度产生驻波干涉图案，通过倏逝场照亮样品。高折射率氮化硅波导可将成像空间分辨率提高2.3倍，超过SIM通常的2倍限制。总之，cSIM为在大视场上进行二维超分辨率成像提供了一种简单、稳定和经济的方法。
+
+--------------------
+
+Transscleral optical phase imaging of the human retina
+
+In vivo observation of the human retina at the cellular level is crucial to detect the first signs of retinal diseases and properly treat them. Despite the phenomenal advances in adaptive optics systems, clinical imaging of many retinal cells is still elusive due to the low signal-to-noise ratio induced by transpupillary illumination. We present a transscleral optical phase imaging method, which relies on high-angle oblique illumination of the retina, combined with adaptive optics, to enhance cell contrast. Examination of 11 healthy volunteer eyes, without pupil dilation, shows the ability of this method to produce in vivo images of retinal cells, from the retinal pigment epithelium to the nerve fibre layer. This method also allows the generation of high-resolution label-free ex vivo phase images of flat-mounted retinas. The in vivo images with 4.4° × 4.4° field of view are recorded in less than 10 s, opening new avenues in the exploration of healthy and diseased retinas.
+
+人眼视网膜的经巩膜光学相位成像
+
+在细胞水平上对人视网膜进行体内观察，对于发现视网膜疾病的最初症状和正确治疗至关重要。尽管自适应光学系统取得了显著的进展，但由于经瞳孔照明导致的低信噪比，许多视网膜细胞的临床成像仍然难以捕捉。本文提出了一种透过巩膜的光学相位成像方法，它依赖于视网膜的高角度斜照，结合自适应光学，以增强细胞对比度。对11只没有瞳孔扩张的健康志愿者眼睛的检查表明，这种方法能够产生从视网膜色素上皮到神经纤维层的视网膜细胞的活体图像。该方法还允许产生高分辨率无标签的平板视网膜离体相位图像。在10秒内可记录4.4°×4.4°视场的活体图像，为健康和疾病视网膜的探索开辟了新途径。
+
+--------------------
+
+Terahertz topological photonics for on-chip communication
+
+The realization of integrated, low-cost and efficient solutions for high-speed, on-chip communication requires terahertz-frequency waveguides and has great potential for information and communication technologies, including sixth-generation (6G) wireless communication, terahertz integrated circuits, and interconnects for intrachip and interchip communication. However, conventional approaches to terahertz waveguiding suffer from sensitivity to defects and sharp bends. Here, building on the topological phase of light, we experimentally demonstrate robust terahertz topological valley transport through several sharp bends on the all-silicon chip. The valley kink states are excellent information carriers owing to their robustness, single-mode propagation and linear dispersion. By leveraging such states, we demonstrate error-free communication through a highly twisted domain wall at an unprecedented data transfer rate (exceeding ten gigabits per second) that enables real-time transmission of uncompressed 4K high-definition video (that is, with a horizontal display resolution of approximately 4,000 pixels). Terahertz communication with topological devices opens a route towards terabit-per-second datalinks that could enable artificial intelligence and cloud-based technologies, including autonomous driving, healthcare, precision manufacturing and holographic communication.
+
+太赫兹拓扑光子学用于片上通信
+
+实现集成化、低成本、高效高速的片上通信解决方案，需要太赫兹频率波导，在信息和通信技术方面具有巨大潜力，包括第六代(6G)无线通信、太赫兹集成电路以及用于芯片内和芯片间通信的互连。然而，传统的太赫兹波导方法对缺陷和急弯敏感。本文以光的拓扑相位为基础，实验上演示了在全硅片上通过几个急弯的太赫兹拓扑谷输运。谷折弯态具有高可靠性、单模传播和线性色散等优点，是优良的信息载体。通过利用这些状态，我们演示了通过高度扭曲的域墙以前所未有的数据传输速率(超过10gigabits / s)进行无错误通信，从而能够实时传输未压缩的4K高清视频(即水平显示分辨率约为4000像素)。基于拓扑器件的太赫兹通信开辟了一条通向每秒太比特数据链路的途径，这可能使人工智能和基于云的技术成为可能，包括自动驾驶、医疗保健、精密制造和全息通信。
+
+--------------------
+
+Monitoring contractility in cardiac tissue with cellular resolution using biointegrated microlasers
+
+The contractility of cardiac cells is a key parameter that describes the biomechanical characteristics of the beating heart, but functional monitoring of three-dimensional cardiac tissue with single-cell resolution remains a major challenge. Here, we introduce microscopic whispering-gallery-mode lasers into cardiac cells to realize all-optical recording of transient cardiac contraction profiles with cellular resolution. The brilliant emission and high spectral sensitivity of microlasers to local changes in refractive index enable long-term tracking of individual cardiac cells, monitoring of drug administration, accurate measurements of organ-scale contractility in live zebrafish, and robust contractility sensing through hundreds of micrometres of rat heart tissue. Our study reveals changes in sarcomeric protein density as an underlying factor to cardiac contraction. More broadly, the use of novel micro- and nanoscopic lasers as non-invasive, biointegrated optical sensors brings new opportunities to monitor a wide range of physiological parameters with cellular resolution.
+
+利用生物集成微激光器的细胞分辨率监测心脏组织收缩性
+
+心脏细胞的收缩力是描述跳动心脏生物力学特征的一个关键参数，但单细胞分辨率的三维心脏组织功能监测仍然是一个主要挑战。本文引入显微镜下的回音壁模式激光进入心脏细胞，以实现全光记录瞬时心脏收缩轮廓细胞分辨率。微激光器对折射指数局部变化的亮发射和高光谱敏感性使其能够长期跟踪单个心脏细胞，监测给药情况，精确测量活体斑马鱼的器官尺度收缩能力，以及通过数百微米老鼠心脏组织的强大收缩能力感应。研究显示肌肉瘤蛋白密度的变化是心脏收缩的一个潜在因素。更广泛地讲，新型微纳米激光用于非侵入性生物集成光学传感器为监测细胞级分辨率的广泛生理参数带来了新机会。
